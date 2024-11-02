@@ -1,0 +1,33 @@
+ /* Card.css */
+
+.card-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    margin: 16px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: transform 0.2s;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .card-input {
+    width: 100%;
+    padding: 8px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #333;
+    margin: 8px 0;
+    font-weight: 500;
+  }
+  
